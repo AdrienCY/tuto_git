@@ -1,0 +1,22 @@
+Tuto Git:
+
+-télecharger Git
+-Connecter vous depuis le site github
+-ouvrir le projet avec clique droit git bash here
+-inialiser le projet avec la commande git init
+-configurer notre projet avec la commande git config --global user.name tuto_git
+-on fait la meme chose mais pour Email git config --global user.email adriencharmarty@gmail.com
+-pour voir s'il y a eu des changements dans notre dossier, git status
+-pour pré-sauvegarder tout nos dossier faire un git add . 
+-puis enregistrer la sauvegarde avec git commit -m "tuto_git"
+-pour ignorer un dossier faire git rm --cached README.md
+-on peut créer un fichier gitignore avec touch .gitignore et dedans mettre le dossier qu'on veut ignorer
+-pour récuperer un fichier supprimer faire git checkout -- .
+-ajouter une branche avec git branch dev
+-pour voir nos branch faire un git branch --list
+-pour changer de branche git checkout dev
+-pour récuperer une branche inférieur avec git merge dev
+-transferer notre projet sur le site, il faut une fois connecté sur le site cliquer sur la croix en haut à droite, puis new repository
+-donner un nom à notre projet, puis une description et enfin cliquer sur create repository
+-pour transferer notre projet sur l'ordinateur à github sur internet récuperer la ligne, git remote add origin https://github.com/AdrienCY/tuto_git.git
+-puis l'autre ligne, git push -u origin master
